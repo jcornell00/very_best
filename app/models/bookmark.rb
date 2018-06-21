@@ -1,6 +1,8 @@
 class Bookmark < ApplicationRecord
   # Direct associations
 
+  belongs_to :restaurant
+
   belongs_to :dish
 
   # Indirect associations
